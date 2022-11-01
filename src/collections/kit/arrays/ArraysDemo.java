@@ -5,6 +5,7 @@ import java.util.Arrays;
 public class ArraysDemo {
 
     public static void main(String[] args) {
+
         String[] name = new String[5];  // 1. name   2. copyArray
         name[0] = "A";
         name[1] = "B";

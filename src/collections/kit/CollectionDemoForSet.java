@@ -4,11 +4,13 @@ import collections.kit.arithmeticOperators.LogicalOperatorDemo;
 
 import java.util.HashSet;
 import java.util.Set;
+import java.util.Vector;
 
 public class CollectionDemoForSet {
 
     public static void main(String[] args) {
         Set<Integer> s1 = new HashSet<>();
+        Vector<String> v1 = new Vector<>();
 
 
         s1.add(1);

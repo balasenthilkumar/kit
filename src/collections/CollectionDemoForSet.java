@@ -1,9 +1,10 @@
 package collections;
 
 import java.util.HashSet;
+import java.util.Map;
 import java.util.Set;
 
-public class CollectionDemoForSet {
+public class CollectionDemoForSet  {
 
     public static void main(String[] args) {
         Set<Integer> s1 = new HashSet<>();
