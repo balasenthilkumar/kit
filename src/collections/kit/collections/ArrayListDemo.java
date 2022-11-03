@@ -1,10 +1,11 @@
 package collections.kit.collections;
 
 import java.util.*;
+import java.util.LinkedList;
 
 public class ArrayListDemo {
     public static void main(String[] args) {
-        List<Integer> list = new ArrayList(); // list implementation are ArrayList, LinkedList, Vector
+        List<Integer> list = new LinkedList<>(); // list implementation are ArrayList, LinkedList, Vector
 
        list.add(200);
        list.add(300);
