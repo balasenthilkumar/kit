@@ -15,6 +15,9 @@ public class MapDemo {
         mapValues.put(11,"D");
         mapValues.put(2,"E");
         mapValues.put(6,"F");
+        mapValues.put(30,"XYZ");
+
+
 
         //have to create the Set to iterate these map values
         /*Set setValue = mapValues.entrySet();
@@ -31,8 +34,14 @@ public class MapDemo {
        /* for(Map.Entry<Integer, String> entry: mapValues.entrySet()){
             System.out.println(entry.getKey()+" = "+ entry.getValue());
         }*/
-
-        mapValues.entrySet().stream().sorted(Map.Entry.comparingByKey()).forEach(System.out::println);
+        // returns the view of Map
+        mapValues.entrySet()
+                //used to walkthrough one by one
+                .stream()
+                // used to sorting using comparator
+                .sorted(Map.Entry.comparingByKey())
+                // perform the print action with the help of method reference
+                .forEach(System.out::println);
 
     }
 }
