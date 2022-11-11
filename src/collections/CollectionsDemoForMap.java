@@ -18,6 +18,7 @@ public class CollectionsDemoForMap {
 
         employee.remove("CBA");
 
+
         for(Map.Entry<String, Integer> emp:employee.entrySet()){
             System.out.println(emp.getKey() +" - " + emp.getValue());
             System.out.println();

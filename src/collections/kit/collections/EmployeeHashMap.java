@@ -1,13 +1,14 @@
 package collections.kit.collections;
 
+import java.util.Collections;
 import java.util.HashMap;
 import java.util.Map;
 
 public class EmployeeHashMap {
 
     public static void main(String[] args) {
-        Employee emp1 = new Employee(1,"Senthilkumar");
-        Employee emp2 = new Employee(1,"Leo");
+        Employee emp1 = new Employee(3,"Senthilkumar");
+        Employee emp2 = new Employee(2,"Leo");
         Employee emp3 = new Employee(1,"Dinesh");
 
         Map<String, Employee> map = new HashMap<>();
