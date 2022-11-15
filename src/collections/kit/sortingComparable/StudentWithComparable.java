@@ -53,7 +53,7 @@ public class StudentWithComparable implements Comparable<StudentWithComparable> 
         list.add(s4);
         list.add(s5);
 
-        Collections.sort(list);
+       Collections.sort(list);
         System.out.println(list.toString());
 
     }

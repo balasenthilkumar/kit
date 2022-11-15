@@ -11,8 +11,8 @@ public class FileWriterDemo {
 
         try {
             file.createNewFile();
-            FileWriter writer = new FileWriter(file);
-            writer.write("Hi hello welcome");
+            FileWriter writer = new FileWriter(file, true);
+            writer.write("Hi ");
             writer.flush();
             writer.close();
         } catch (IOException e) {
